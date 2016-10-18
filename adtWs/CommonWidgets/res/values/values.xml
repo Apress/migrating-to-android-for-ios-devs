@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="radioBtnChecked">true</bool>
+    <integer name="maxProgress">100</integer>
+
+    <integer-array name="luckNumbers">
+        <item>2</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+
+</resources>

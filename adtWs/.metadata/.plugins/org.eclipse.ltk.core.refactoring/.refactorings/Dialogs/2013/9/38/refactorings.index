@@ -1,0 +1,15 @@
+1379364426330	Delete elements
+1379364440897	Delete elements
+1379365749326	Rename field 'nextButton'
+1379375882444	Rename package 'com.pdachoice.renameme'
+1379376007205	Rename resource 'popupdialog_fragment.xml'
+1379376022813	Rename type 'PopupDialogFragment'
+1379376078389	Delete element
+1379388448202	Rename field 'listview'
+1379435661839	Rename type 'PopupColorsDialogFragment'
+1379435739108	Rename resource 'popupcolorsdialog_fragment.xml'
+1379435854732	Rename type 'ColorPickerPopupDialogFragment'
+1379435871189	Rename resource 'colorpickerpopupdialog_fragment.xml'
+1379438629157	Extract method 'showAlert'
+1379443046461	Rename local variable 'fragment'
+1379443059524	Rename local variable 'alert'

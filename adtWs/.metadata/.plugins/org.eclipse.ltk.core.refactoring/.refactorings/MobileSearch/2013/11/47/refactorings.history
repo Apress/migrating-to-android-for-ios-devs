@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.pdachoice.masterdetail&apos; to &apos;com.pdachoice.mobilesearch&apos;&#x0A;- Original project: &apos;MobileSearch&apos;&#x0A;- Original element: &apos;MobileSearch/src/com.pdachoice.masterdetail&apos;&#x0A;- Renamed element: &apos;MobileSearch/src/com.pdachoice.mobilesearch&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.pdachoice.masterdetail&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.pdachoice.masterdetail" name="com.pdachoice.mobilesearch" patterns="*" qualified="true" references="true" stamp="1384919939683" textual="true" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+1395279532984	Rename package 'com.pdachoice.renameme'
+1395279558124	Rename type 'ScreenOneFragment'
+1395279585816	Rename resource 'screenone_fragment.xml'
+1395279615682	Rename type 'ScreenTwoFragment'
+1395279636193	Rename resource 'screentwo_fragment.xml'
+1395279651550	Rename type 'ScreenThreeFragment'
+1395279675984	Rename resource 'screenthree_fragment.xml'
+1395279703465	Copy file
+1395279723624	Copy compilation unit
+1395281314975	Delete element
+1395281340788	Copy file
+1395281378913	Delete element
+1395281400837	Copy compilation unit
+1395377349906	Convert anonymous class to nested
+1395377403019	Move type 'PropertyViewListAdapter' to new file
+1395378217350	Delete element
+1395518218577	Rename type 'PropertyViewFragment'
+1395518230309	Rename resource 'propertyview_fragment.xml'
+1395518256220	Rename type 'Property'

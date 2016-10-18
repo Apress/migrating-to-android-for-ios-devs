@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="390" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="368" key="DIALOG_HEIGHT"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="MyProvider" key="selection"/>
+		<list key="findhistory">
+			<item value="MyProvider"/>
+			<item value="delegate."/>
+			<item value="onOptionsItemSelected"/>
+			<item value="viewDidAppear"/>
+			<item value=".text = [NSString stringWithFormat: @"/>
+			<item value="];"/>
+			<item value="[NSString stringWithFormat: @"/>
+			<item value=".text = "/>
+		</list>
+		<list key="replacehistory">
+			<item value=".setText(String.format("/>
+			<item value="));"/>
+			<item value="String.format("/>
+			<item value=".setText("/>
+			<item value="this.lb"/>
+			<item value=");"/>
+			<item value="this.monthlyTerm.optDouble("/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

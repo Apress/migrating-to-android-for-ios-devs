@@ -1,0 +1,5 @@
+1378241603372	Rename field 'editText1'
+1378241652508	Extracts string 'null' into R.string.name_hint
+1378242089713	Rename field 'button1'
+1378242116439	Extracts string 'null' into R.string.hello_button
+1378242249456	Extracts string 'null' into R.string.buttonClickedHello

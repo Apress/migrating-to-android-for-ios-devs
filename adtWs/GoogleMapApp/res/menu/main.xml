@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_location"
+        android:title="@string/action_location"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_marker"
+        android:title="@string/action_marker"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_circle"
+        android:title="@string/action_circle"
+        app:showAsAction="never"/>
+    
+</menu>

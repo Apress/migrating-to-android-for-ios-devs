@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tabbed App</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_screenone">First View</string>
+    <string name="label_screentwo">Second View</string>
+    <string name="description_screenone">Loaded by the first view controller — an instance of FirstViewController — specified in the app delegate.</string>
+    <string name="description_screentwo">Loaded by the second view controller — an instance of SecondViewController — specified in the app delegate.</string>
+
+</resources>

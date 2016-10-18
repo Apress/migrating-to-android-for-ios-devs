@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Common Widgets</string>
+    <string name="action_settings">Settings</string>
+    <string name="labelText">Simple text Label</string>
+    <string name="textfieldHints">Hint: one-line text input</string>
+    <string name="textfieldMultipleLine">Hint: multiple-line text input</string>
+    <string name="buttonTitle">Action Button</string>
+    <string name="segmentControl_1">First</string>
+    <string name="segmentControl_2">Second</string>
+    <string name="segmentControl_3">Third</string>
+    <string name="barButtonTitle">Action Sheet</string>
+    <string name="contextMenuItem1">Context Action 1</string>
+    <string name="contextMenuItem2">Context Action 2</string>
+    <string name="contextMenuItem3">Context Action 3</string>
+    <string name="popupMenuItem1">Popup Action 1</string>
+    <string name="popupMenuItem2">Popup Action 2</string>
+    <string name="popupMenuItem3">Popup Action 3</string>
+
+    <string-array name="spinnerItems">
+        <item>Item 0</item>
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+    <color name="bgcolor">#33808080</color>
+
+    <plurals name="numberOfBook">
+        <item quantity="one">One pencil is one dollar</item>
+        <item quantity="other">Two pencils are two dollars</item>
+    </plurals>
+
+</resources>

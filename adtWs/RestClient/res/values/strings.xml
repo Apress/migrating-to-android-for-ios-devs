@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rest Client</string>
+    <string name="label_get">GET</string>
+    <string name="label_post">POST</string>
+    <string name="label_hint">i.e., Hello, you.</string>
+
+</resources>

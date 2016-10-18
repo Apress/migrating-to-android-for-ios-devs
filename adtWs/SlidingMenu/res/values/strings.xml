@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sliding Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_screenone">First Screen</string>
+    <string name="label_screentwo">2nd Screen</string>
+    <string name="label_screenthree">3rd Screen</string>
+    
+</resources>

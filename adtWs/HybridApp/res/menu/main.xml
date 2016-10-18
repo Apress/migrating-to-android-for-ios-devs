@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/actionBack"
+        android:icon="@android:drawable/ic_media_previous"
+        app:showAsAction="always"
+        android:title="@string/optionMenuBack"/>
+    <item
+        android:id="@+id/actionMe"
+        android:icon="@drawable/me"
+        app:showAsAction="always"
+        android:title="@string/optionMenuMe"/>
+    <item
+        android:id="@+id/actionHome"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:title="@string/optionMenuHome"/>
+    <item
+        android:id="@+id/actionFwd"
+        android:icon="@android:drawable/ic_media_next"
+        app:showAsAction="always"
+        android:title="@string/optionMenuForward"/>
+
+</menu>

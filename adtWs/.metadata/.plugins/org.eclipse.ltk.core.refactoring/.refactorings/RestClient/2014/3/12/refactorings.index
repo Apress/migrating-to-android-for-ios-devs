@@ -1,0 +1,4 @@
+1394992856126	Extract method 'dismissKeyboard'
+1394993061918	Extract method 'performGet'
+1394993110671	Extract method 'performPost'
+1395001953795	Extract method 'processResultData'

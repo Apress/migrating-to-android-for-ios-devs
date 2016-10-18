@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">renommez</string>
+    <string name="action_settings">réglages</string>
+    <string name="hello_world">Bonjour tout le monde!</string>
+    <string name="label_screenone">écran une</string>
+    <string name="label_screentwo">deux écrans</string>
+    <string name="label_screenthree">trois écrans</string>
+    <string name="button_next">Ensuite</string>
+
+</resources>

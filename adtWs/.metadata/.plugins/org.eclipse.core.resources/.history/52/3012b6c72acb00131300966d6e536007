@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menuAction"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/barButtonTitle"
+        appcompat:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/menuAction1"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@android:string/untitled"
+        appcompat:showAsAction="ifRoom|withText"/>
+
+</menu>

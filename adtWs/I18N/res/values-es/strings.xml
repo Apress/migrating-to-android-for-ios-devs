@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Renombrar</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">¡Hola, mundo!</string>
+    <string name="label_screenone">Página uno</string>
+    <string name="label_screentwo">Página dos</string>
+    <string name="label_screenthree">Página tres</string>
+    <string name="button_next">próximo</string>
+
+</resources>

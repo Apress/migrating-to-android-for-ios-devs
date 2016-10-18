@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgcolor"
+        android:padding="@dimen/borderPadding" >
+
+        <!-- a very long content view -->
+
+        <TextView
+            android:id="@+id/textViewLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:text="@string/labelText"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextOneLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textViewLabel"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:hint="@string/textfieldHints"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextFourLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/editTextOneLine"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="top"
+            android:hint="@string/textfieldMultipleLine"
+            android:lines="4" />
+
+        <Button
+            android:id="@+id/buttonAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editTextFourLine"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:text="@string/buttonTitle" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/buttonAction"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="@bool/radioBtnChecked"
+                android:text="@string/segmentControl_1" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/segmentControl_2" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/segmentControl_3" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewSlider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:layout_toRightOf="@id/textViewSlider"
+            android:max="100"
+            android:progress="10" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/seekBar"
+            android:layout_marginBottom="@dimen/borderPadding" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/progressBar1"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:max="@integer/maxProgress" />
+
+        <ToggleButton
+            android:id="@+id/switchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/progressBar1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/progressBar1"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:checked="true" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/progressBar2"
+            android:layout_marginBottom="@dimen/borderPadding"
+            android:adjustViewBounds="true"
+            android:contentDescription="@android:string/unknownName"
+            android:scaleType="center"
+            android:src="@drawable/iosadt" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:background="@android:color/white"
+            android:layout_marginBottom="@dimen/borderPadding" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="190dp"
+            android:layout_height="240dp"
+            android:layout_below="@id/spinner"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/borderPadding" />
+    </RelativeLayout>
+
+</ScrollView>

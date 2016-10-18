@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;authority&apos; in &apos;com.pdachoice.appcomponents.HelloBroadcastReceiver&apos; to &apos;AUTHORITY&apos;&#x0A;- Original project: &apos;AppComponents&apos;&#x0A;- Original element: &apos;com.pdachoice.appcomponents.HelloBroadcastReceiver.authority&apos;&#x0A;- Renamed element: &apos;com.pdachoice.appcomponents.HelloBroadcastReceiver.AUTHORITY&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;authority&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.pdachoice.appcomponents{HelloBroadcastReceiver.java[HelloBroadcastReceiver^authority" name="AUTHORITY" references="true" setter="false" stamp="1392598131483" textual="true" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Use System Apps</string>    
+    <string name="actionPhone">usePhone()</string>
+    <string name="actionSms">useSms()</string>
+    <string name="actionEmail">useEmail()</string>
+    <string name="actionMedia">useMediaPlayer()</string>
+
+</resources>

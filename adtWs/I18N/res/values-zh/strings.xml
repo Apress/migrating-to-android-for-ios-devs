@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">重命名</string>
+    <string name="action_settings">設置</string>
+    <string name="hello_world">世界，你好！</string>
+    <string name="label_screenone">第一個屏幕</string>
+    <string name="label_screentwo">第二個屏幕</string>
+    <string name="label_screenthree">最後屏幕</string>
+    <string name="button_next">下一個</string>
+
+</resources>

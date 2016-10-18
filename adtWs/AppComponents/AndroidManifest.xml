@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pdachoice.appcomponents"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="com.pdachoice.appcomponents.HELLO_PERMISSION" />
+
+    <permission
+        android:name="com.pdachoice.appcomponents.HELLO_PERMISSION"
+        android:description="@string/permission"
+        android:label="@string/app_name" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name="com.pdachoice.appcomponents.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.pdachoice.appcomponents.HelloService" />
+
+        <receiver
+            android:name="com.pdachoice.appcomponents.HelloBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.pdachoice.appcomponents.HELLO_PERMISSION" >
+            <intent-filter>
+                <action android:name="com.pdachoice.appcomponents.Hello" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.pdachoice.appcomponents.HelloContentProvider"
+            android:authorities="com.pdachoice.appcomponents.HelloContentProvider"
+            android:exported="true" >
+        </provider>
+
+        <activity
+            android:name="com.pdachoice.appcomponents.MyActivity"
+            android:label="@string/title_activity_my" >
+        </activity>
+    </application>
+
+</manifest>

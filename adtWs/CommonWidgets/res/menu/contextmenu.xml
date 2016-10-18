@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/contextMenuAction1"
+        android:title="@string/contextMenuItem1"/>
+    <item
+        android:id="@+id/contextMenuAction2"
+        android:title="@string/contextMenuItem2"/>
+    <item
+        android:id="@+id/contextMenuAction3"
+        android:title="@string/contextMenuItem3"/>
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Application Components</string>
+    <string name="actionExplicit">useExplicitIntent()</string>
+    <string name="actionImplicit">useImplicitIntent()</string>
+    <string name="actionUseService">useHelloService()</string>
+    <string name="permission">BroadcastReceiver: Just want to say Hi</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

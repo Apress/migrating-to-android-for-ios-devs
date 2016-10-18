@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/actionPhone"
+        android:title="@string/actionPhone"
+        appcompat:showAsAction="never"/>
+    <item
+        android:id="@+id/actionSms"
+        android:title="@string/actionSms"
+        appcompat:showAsAction="never"/>
+    <item
+        android:id="@+id/actionEmail"
+        android:title="@string/actionEmail"
+        appcompat:showAsAction="never"/>
+    <item
+        android:id="@+id/actionMedia"
+        android:title="@string/actionMedia"
+        appcompat:showAsAction="never"/>
+
+</menu>

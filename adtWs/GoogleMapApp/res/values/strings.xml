@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Google Map App</string>
+    <string name="action_location">Set Location</string>
+    <string name="action_marker">Set Marker</string>
+    <string name="action_circle">Set Circle</string>
+
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.pdachoice.renameme&apos; to &apos;com.pdachoice.i18n&apos;&#x0A;- Original project: &apos;I18N&apos;&#x0A;- Original element: &apos;I18N/src/com.pdachoice.renameme&apos;&#x0A;- Renamed element: &apos;I18N/src/com.pdachoice.i18n&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.pdachoice.renameme&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.pdachoice.renameme" name="com.pdachoice.i18n" patterns="*" qualified="true" references="true" stamp="1383362819656" textual="true" version="1.0"/>
+</session>

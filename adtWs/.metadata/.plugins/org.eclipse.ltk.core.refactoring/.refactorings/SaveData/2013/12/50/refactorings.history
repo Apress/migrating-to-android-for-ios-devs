@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SimpleSQLiteOpenHelper.java&apos; to &apos;AppComponents/src/com.pdachoice.appcomponents&apos;&#x0A;- Original project: &apos;SaveData&apos;&#x0A;- Destination element: &apos;AppComponents/src/com.pdachoice.appcomponents&apos;&#x0A;- Original element: &apos;com.pdachoice.savedata.SimpleSQLiteOpenHelper.java&apos;" description="Copy compilation unit" destination="=AppComponents/src&lt;com.pdachoice.appcomponents" element1="/src&lt;com.pdachoice.savedata{SimpleSQLiteOpenHelper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1386545321515" units="1" version="1.0"/>
+</session>
